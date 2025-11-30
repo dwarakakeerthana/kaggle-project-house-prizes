@@ -71,33 +71,24 @@ LightGBM	0.13243
 Stacking (Ridge Meta Model)	0.12980 ± 0.01971
 
 📁 Folder Structure (Project Tree)
-House-Price-Prediction/
-│── notebooks/ (Kaggle notebooks, Colab versions)
-│── data/ (train.csv, test.csv)
-│── src/
-│   ├── modeling.py (XGBoost + LightGBM OOF)
-│   ├── features.py (Feature engineering utilities)
-│   ├── utils.py (RMSE, AUC, metrics)
-│── outputs/
-│   ├── submission.csv ✅
-│── README.md 🚀
-│── .gitignore
-│── requirements.txt
+[image alt](https://github.com/dwarakakeerthana/kaggle-project-house-prizes/blob/main/Screenshot%202025-11-30%20101719.png?raw=true)
 
-![image alt](
 📈 SalePrice Distribution
-![SalePrice distribution raw](path-to-image.png)
-![SalePrice distribution log1p](path-to-image.png)
+![SalePrice distribution raw]
+![SalePrice distribution log1p]
+
+![image alt](https://github.com/dwarakakeerthana/kaggle-project-house-prizes/blob/main/Screenshot%202025-11-30%20095623.png?raw=true)
 
 📊 Feature Relationship Plots
 ![Quality vs SalePrice]
 ![GrLivArea vs SalePrice]
 ![GarageCars vs SalePrice]
 ![Basement SF vs SalePrice]
+
 ![image alt](https://github.com/dwarakakeerthana/kaggle-project-house-prizes/blob/main/Screenshot%202025-11-30%20095534.png?raw=true)
 
 🏷 Submission Output Sample
-![Submission Table](path-to-image.png)
+![Submission Table]
 
 🏁 Final Kaggle Submission Generator
 submission = pd.DataFrame({"id": test["Id"], "loan_paid_back": final_proba})
