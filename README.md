@@ -84,19 +84,17 @@ House-Price-Prediction/
 │── .gitignore
 │── requirements.txt
 
-📸 Screenshots (Kaggle Analysis)
-
-Upload the below images into your GitHub repo and replace the links here.
-
+![image alt](
 📈 SalePrice Distribution
 ![SalePrice distribution raw](path-to-image.png)
 ![SalePrice distribution log1p](path-to-image.png)
 
 📊 Feature Relationship Plots
-![Quality vs SalePrice](path-to-image.png)
-![GrLivArea vs SalePrice](path-to-image.png)
-![GarageCars vs SalePrice](path-to-image.png)
-![Basement SF vs SalePrice](path-to-image.png)
+![Quality vs SalePrice]
+![GrLivArea vs SalePrice]
+![GarageCars vs SalePrice]
+![Basement SF vs SalePrice]
+![image alt](https://github.com/dwarakakeerthana/kaggle-project-house-prizes/blob/main/Screenshot%202025-11-30%20095534.png?raw=true)
 
 🏷 Submission Output Sample
 ![Submission Table](path-to-image.png)
@@ -106,15 +104,6 @@ submission = pd.DataFrame({"id": test["Id"], "loan_paid_back": final_proba})
 submission.to_csv("submission.csv", index=False)
 print("Submission saved ✅")
 
-📌 Key Takeaways for Motivation Letter
-1.Built two GBDT models to handle non-linear data
-2.Used stacking for performance boost
-3.Improved model accuracy by addressing:
-  a)data leakage
-  b)categorical encoding errors
-  c)distribution skewness
-  d)validation metric alignment
-4.Delivered competition-ready pipeline with ROC-AUC evaluation
 
 🚀 Results Summary
 
